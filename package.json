@@ -1,0 +1,24 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "Sat Apr 8th",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirChristianWilliam/electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirChristianWilliam/electron/issues"
+  },
+  "homepage": "https://github.com/SirChristianWilliam/electron#readme",
+  "devDependencies": {
+    "electron": "^24.0.0"
+  }
+}
