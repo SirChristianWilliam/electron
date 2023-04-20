@@ -1,7 +1,7 @@
 module.exports = {
   packagerConfig: {
-    icon: '/path/to/icon'
-  },
+    icon: '/images/imageconversionicon.icns',
+    },
   rebuildConfig: {},
   makers: [
     {
@@ -11,6 +11,7 @@ module.exports = {
     {
       name: '@electron-forge/maker-zip',
       platforms: ['darwin'],
+      icon: '/images/imageconversionicon.icns',
     },
     {
       name: '@electron-forge/maker-deb',

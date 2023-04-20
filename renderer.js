@@ -21,4 +21,5 @@ document.getElementById(
 document.getElementById(
     "notes"
   ).innerHTML = "Notes:"
-  
+
+document.getElementById("note1").innerHTML = `This is the first note`
